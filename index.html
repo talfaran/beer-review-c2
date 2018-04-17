@@ -15,7 +15,10 @@
 
         <section class="beers">
           <h2>Beers</h2>
-          <ul class="beers-list"></ul>
+          <ul class="beers-list">
+
+            <li>lets hope</li>
+          </ul>
         </section>
 
         <form class="beer-form">
@@ -23,7 +26,7 @@
 
           <div class="form-group">
             <input type="text"
-              class="beer-input form-control"
+              class="beer-input form-control" id = "nameBeer"
               placeholder="Beer Name">
           </div>
 
@@ -33,7 +36,19 @@
               placeholder="Category">
           </div>
 
-          <button class="btn btn-primary post-beer" type="button">Post</button>
+          <button class="btn btn-primary post-beer" id = "submitButton" type="button">Post</button>
+          <button class = "btn btn-info render-beer" type = "button">render you beer</button>
+            <br>
+          <h3>rate your beer</h3>
+            <select name = "rate you beer" id = "rating">
+              <option value = "not selected">please rate here</option>
+              <option value="very poor">very poor</option>
+              <option value="not too good">not too good</option>
+              <option value="kinda average">kinda average</option>
+              <option value="pretty good">pretty good</option>
+              <option value="awsome beer!">awsome beer!</option>
+            </select>
+          
         </form>
       </div>
     </div>
